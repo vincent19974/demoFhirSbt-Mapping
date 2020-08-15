@@ -1,19 +1,19 @@
-varriable "bucket" {
+variable "bucket" {
     type = string
     description = "Name of the bucket"
 }
 
-varriable "acl" {
+variable "acl" {
     type = string
     description = "ACL (PRIVATE OR NOT)"
 }
 
-varriable "name" {
+variable "name" {
     type = string
     description = "Name of the tag for s3"
 }
 
-varriable "environment" {
+variable "environment" {
     type = string
     description = "Env for this bucket"
 }

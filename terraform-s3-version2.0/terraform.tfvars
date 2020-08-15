@@ -1,9 +1,9 @@
 
 
-bucket = "my-tf-test-bucket-4"
+bucket = "my-tf-test-bucket-4-test"
 
 acl = "private"
 
-Name = "My bucket"
+name = "My bucket"
 
-Environment = "Test"
+environment = "Test"
