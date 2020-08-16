@@ -17,3 +17,7 @@ variable "environment" {
     type = string
     description = "Env for this bucket"
 }
+
+variable "region" {
+    default = "us-east-1"
+}

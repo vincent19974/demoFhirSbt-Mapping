@@ -1,6 +1,4 @@
-
-
-bucket = "my-tf-test-bucket-4-test"
+bucket = "my-tf-test-bucket-6-test"
 
 acl = "private"
 
