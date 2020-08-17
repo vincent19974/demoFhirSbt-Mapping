@@ -18,6 +18,3 @@ variable "environment" {
     description = "Env for this bucket"
 }
 
-variable "region" {
-    default = "us-east-1"
-}
