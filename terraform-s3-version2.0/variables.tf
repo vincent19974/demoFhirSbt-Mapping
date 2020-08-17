@@ -18,3 +18,9 @@ variable "environment" {
     description = "Env for this bucket"
 }
 
+variable "region" {
+    type = string
+    description = "Region var"
+}
+
+
