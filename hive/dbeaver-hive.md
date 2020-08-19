@@ -6,5 +6,8 @@
 4. Setup DBeaver to point to Hive
 5. Download (automatically) Hive drivers for DBeaver 
 6. Enter IP address and click Finish/Connect:
+![alt DBeaver](https://github.com/data-bar/aws/blob/master/hive/dbeaver_files/DBeaver-connection-window.png)
+
+7. See the Result - Tables and Records:
 
 ![alt DBeaver](https://github.com/data-bar/aws/blob/master/hive/dbeaver_files/DBeaver-result-window.png)
