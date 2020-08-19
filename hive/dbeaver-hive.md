@@ -5,5 +5,6 @@
 3. Take IP address of EMR: `https://console.aws.amazon.com/elasticmapreduce/home?region=us-east-1`
 4. Setup DBeaver to point to Hive
 5. Download (automatically) Hive drivers for DBeaver 
-6. Enter IP address and click Finish/Connect
+6. Enter IP address and click Finish/Connect:
+
 ![alt DBeaver](https://github.com/data-bar/aws/blob/master/hive/dbeaver_files/image.png)
