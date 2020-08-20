@@ -1,6 +1,6 @@
 ### Installation:
-pip install pyhive
-pip install thrift-sasl
+# pip install pyhive
+# pip install thrift-sasl
 
 ### Connect:
 from pyhive import hive
