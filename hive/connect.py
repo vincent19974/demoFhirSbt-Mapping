@@ -14,6 +14,5 @@ sql = 'select * from names'
 cursor.execute(sql)
 print (cursor.fetchall())
 
-
 df = pandas.read_sql(sql, conn)
 print (df)
