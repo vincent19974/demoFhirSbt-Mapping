@@ -18,6 +18,9 @@ do
                echo "SQL file started!" 
                /home/ec2-user/skripta.sh > hive_output.txt 
                aws s3 cp hive_output.txt s3://sasabucket1/ 
+               git add hive_ouptut.txt
+               git commit 
+               git push https://github.com/data-bar/aws/blob/master/hive-automation/
                sleep 1m
        else 
                echo "The file is not new yet!"
