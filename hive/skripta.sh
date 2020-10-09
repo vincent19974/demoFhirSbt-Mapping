@@ -1,14 +1,12 @@
 echo "The beginning of the script!" 
 
 echo "Copy a file from one S3 bucket to another S3 bucket." 
-aws s3 cp s3://sasabucket1/proba3.hql  proba3.hql
-currentDate = $(date +%F -r proba3.hql) 
+currentDate = $(aws s3 ls s3://sasabucket1/proba3.hql | sort | tail -n 1 | awk '{print $1}'`)
 
 for (( ; ; )) 
 do 
        echo "Infinite loops [ hit CTRL+C to stop]" 
-  	  aws s3 cp s3://sasabucket1/proba3.hql  proba3.hql
-       newDate = $(date +%F -r proba3.hql) 
+  	newDate = $(aws s3 ls s3://sasabucket1/proba3.hql | sort | tail -n 1 | awk '{print $1}'`) 
        if [ currentDate <> newDate ] 
        then 
                echo "File date changed!" 
