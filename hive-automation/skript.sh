@@ -15,7 +15,7 @@ else
 		echo "File date changed!"
 		hive -f proba1.hql
 		echo "SQL file started!"
-		/home/ec2-user/skripta.sh > hive_output.txt
+		/home/ec2-user/skript.sh > hive_output.txt
 		aws s3 cp hive_output.txt s3://sasabucket1/
 		git init
 		git add hive_output.txt
