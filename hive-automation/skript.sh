@@ -1,11 +1,14 @@
-echo "The beginnig of the script!"
+log=skriptlog.txt
+printf "Log file: " > $log
+date >> $log
+echo "The beginnig of the script!" >> $log
 aws s3 sync s3://sasabucket1/ /home/ec2-user/tmp/input/
-echo "Copy all fails from S3 bucket!"
+echo "Copy all fails from S3 bucket!" >> $log
 for FILE in *
 do
 curentDA=$(aws s3 ls s3://sasabucket1/$FILE | sort | awk '{print $1$2}')
 touch -d "$curentDA" /home/ec2-user/tmp/input/$FILE
-	echo "Test" "${FILE%.hql}.csv" "$curentDA"
+	echo "Assign a date to the current file from the S3 bucket" "${FILE%.hql}.csv" "$curentDA" >> $log
 	if [ ! -e /home/ec2-user/tmp/output/"${FILE%.hql}.csv" ]; then
 	  echo "Processing $FILE file..."
 	  echo "$FILE"
