@@ -2,7 +2,8 @@
 
 ## Input parameters and definition of the log file are set here
 
-
+dir=$(pwd)
+echo "$dir"
 log=skriptlog.txt
 printf "Log file: " > $log
 date >> $log
