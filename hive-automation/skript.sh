@@ -25,7 +25,7 @@ for FILE in *
 do
 ## The date of th current file is added from the S3 bucket
         curentDA=$(aws s3 ls s3://hql-input/$FILE | sort | awk '{print $1$2}')
-        touch -am "$curentDA" /home/hadoop/tmp/input/$FILE
+        touch -d "$curentDA" /home/hadoop/tmp/input/$FILE
         echo "Assign a date to the current file from the S3 bucket" "${FILE%.hql}.csv" "$curentDA" >> $log
         echo "Assign a date to the current file from the S3 bucket" "${FILE%.hql}.csv" "$curentDA"
 
