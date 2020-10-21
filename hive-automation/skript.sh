@@ -2,7 +2,7 @@
 
 ## Input parameters and definition of the log file are set here
 
-mkdir -p /tmp/input
+
 log=skriptlog.txt
 printf "Log file: " > $log
 date >> $log
