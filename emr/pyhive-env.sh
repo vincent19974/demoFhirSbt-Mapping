@@ -14,7 +14,7 @@ pip install wheel
 
 pip install thrift
 
-sudo install python3-devel
+sudo yum install python3-devel
 
 sudo yum install gcc-c++ python-devel.x86_64 cyrus-sasl-devel.x86_64
 
