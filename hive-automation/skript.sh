@@ -1,3 +1,5 @@
+
+
 dir=$(pwd)
 #s=/home/hadoop/tmp/input
 s=$(pwd)
@@ -101,4 +103,3 @@ echo "End of scripte!"
 fi
 echo "You are not in the /tmp/input folder?"
 exit
-
