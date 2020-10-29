@@ -31,18 +31,31 @@ s3_resource = boto3.resource('s3')
 
 
 
-s = '''{​​​​​​​​
-    "data": [{​​​​​​​​
-        "hcolist": ["100006", "100505,],
-                           "keyCol": "hco_id",
-"athenaDb": "pdp_metrics",
-"athenaTable": "ytd_hco_ntwrk_measures",
-"keyspaceDb": "hppp_streams",
-"keyspaceTable": "network_measure_hco_ytd",
-"outputLoc": "s3://",
-"colsCompar": "ac"
-}​​​​​​​​]
-}​​​​​​​​'''
+#s = '''{​​​​​​​​
+#    "data": [{​​​​​​​​
+#        "hcolist": ["100006", "100505,],
+#                           "keyCol": "hco_id",
+#"athenaDb": "pdp_metrics",
+#"athenaTable": "ytd_hco_ntwrk_measures",
+#"keyspaceDb": "hppp_streams",
+#"keyspaceTable": "network_measure_hco_ytd",
+#"outputLoc": "s3://",
+#"colsCompar": "ac"
+#}​​​​​​​​]
+#}​​​​​​​​'''
+
+s = {
+	"data": [{
+		"hcolist": ["100006", "100505"],
+		"keyCol": "hco_id",
+		"athenaDb": "pdp_metrics",
+		"athenaTable": "ytd_hco_ntwrk_measures",
+		"keyspaceDb": "hppp_streams",
+		"keyspaceTable": "network_measure_hco_ytd",
+		"outputLoc": "s3://",
+		"colsCompar": "ac"
+	}]
+}
 
 d = json.loads(s)
 with open('/tmp/hppp.json', 'w') as json_file:
