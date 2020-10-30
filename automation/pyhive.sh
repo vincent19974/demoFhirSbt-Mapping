@@ -22,7 +22,7 @@ pip3 install thrift-sasl
 
 
 
-aws s3 ls s3://data-test-csv/
+
 
 # sudo su hadoop
 conda activate py38
@@ -46,6 +46,6 @@ python3 /tmp/test/pisi.py
 cat /tmp/test/file.txt
 
 
-aws s3 cp /tmp/test/file.txt s3://data-test-csv/
+aws s3 cp /tmp/test/file.txt s3://p360-poc-s3-log-storage/test/
 
 
