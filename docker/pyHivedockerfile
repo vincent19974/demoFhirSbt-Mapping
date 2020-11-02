@@ -1,13 +1,23 @@
-FROM python:3.8
+FROM python:3.8 
 
-WORKDIR /code
+WORKDIR /code 
 
-RUN apt update
-RUN pip3 install pandas
-RUN pip3 install pyhive
-RUN pip3 install wheel
-RUN pip3 install thrift
-RUN yes | apt-get install python-dev libsasl2-dev gcc
-RUN pip3 install thrift-sasl
+RUN apt update 
 
-#CMD ["python3", "pisi.py"]
+RUN pip3 install pandas 
+
+RUN pip3 install pyhive 
+
+RUN pip3 install wheel 
+
+RUN pip3 install thrift 
+
+RUN yes | apt-get install python-dev libsasl2-dev gcc 
+
+RUN pip3 install thrift-sasl 
+
+RUN pip install cassandra-driver 
+
+RUN pip install boto3 
+
+#CMD ["python3", "test.py"] 
