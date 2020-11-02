@@ -20,4 +20,6 @@ RUN pip install cassandra-driver
 
 RUN pip install boto3 
 
-#CMD ["python3", "test.py"] 
+ADD /test.py  .
+
+CMD ["python3", "test.py"] 
