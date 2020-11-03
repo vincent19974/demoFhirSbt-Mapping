@@ -1,12 +1,31 @@
-# set base image
-FROM python:3.8
-# set the working directory in the container
-WORKDIR /code
-# copy the dependencies file to the working directory
-COPY requirements.txt .
-# install dependencies
-RUN pip install -r requirements.txt
-# copy the content of the local src directory to the working directory
-COPY . .
-# command to run on container start
-CMD [ "python", "extractDataHive.py" ]
+FROM python:3.8 
+
+WORKDIR /code 
+
+RUN apt update 
+
+RUN pip3 install pandas 
+
+RUN pip3 install pyhive 
+
+RUN pip3 install wheel 
+
+RUN pip3 install thrift 
+
+RUN yes | apt-get install python-dev libsasl2-dev gcc 
+
+RUN pip3 install thrift-sasl 
+
+RUN pip install cassandra-driver 
+
+RUN pip install boto3 
+
+ADD /test_env.py .
+
+ADD /input.json /tmp
+
+ENV username="Nikola"
+
+ENV password="testpass"
+
+CMD ["python3", "test_env.py"] 

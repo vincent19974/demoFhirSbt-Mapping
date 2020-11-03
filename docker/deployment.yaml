@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: testdeployment
+  labels:
+    enviroment: test
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      enviroment: test
+  template:
+    metadata:
+      labels:
+        enviroment: test
+    spec:
+      containers:
+      - name: deploymenttest
+        image: test_env:0.0.2
