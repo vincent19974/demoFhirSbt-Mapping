@@ -1,0 +1,11 @@
+1) Make all env variables
+2) read env variables in py
+3) Push input.json file into docker
+4) Build docker image
+5) Push docker imate to ECR
+aws ecr put-image --profile=saml --repository-name ecr-poc-p360 --image-tag p360-s3sink-claims-kconnect-v1.0.0 --image-mainfest file://claims-kcon-mainfest.json
+
+Deploy on kubernetes:
+Create deployment.yaml file.
+Point to docker image
+kubectl apply -f ./my-deployment.yaml
