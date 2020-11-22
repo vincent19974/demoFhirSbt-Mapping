@@ -18,11 +18,5 @@ for obj in s3.list_objects_v2(Bucket=bucket, Prefix=prefix)['Contents']:
 
 
 
-s3 = boto3.resource('s3')
-source_bucket = s3.Bucket('source')
-destination_bucket = s3.Bucket('destination')
-destination_keys = [object.key for object in destination_bucket.objects.all()]
-for object in source_bucket.objects.all():
-  if (object.key not in destination_keys):
-    # copy object.key to destination
+
 
