@@ -7,7 +7,7 @@
 import boto3
 from pprint import pprint
 
-import boto3
+
 old_bucket_name = 'sasabucket1'
 old_prefix = 'hql-input/'
 new_bucket_name = 'sasabucket1'
