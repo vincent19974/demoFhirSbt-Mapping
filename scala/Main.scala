@@ -15,9 +15,7 @@ import scala.util.control.Exception
 
 object Main {
 
-//  val credentials = new BasicAWSCredentials("AKIA2QZ47VDFYKDWV5K7", "0DUBvrW9+oGoO7nnoEzD8tFR++itvCQwxq+Z54kg")
-//
-//  val s3client = AmazonS3ClientBuilder.standard.withCredentials(new AWSStaticCredentialsProvider(credentials)).withRegion(Regions.US_EAST_1).build
+
 
   def main(args: Array[String]): Unit = {
 
