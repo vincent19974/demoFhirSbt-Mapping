@@ -40,6 +40,7 @@ object Main {
       df = df.withColumn("time", lit(now))
     }
   }finally {
+  
     df.write.partitionBy("time", "leftOrRight").mode("overwrite").json("./output/")
   }
 
