@@ -3,15 +3,11 @@ package sample
 import java.time.LocalDateTime
 import java.time.format.DateTimeFormatter
 
-import breeze.numerics.constants.e
-import com.amazonaws.regions.Regions
-import com.amazonaws.services.s3.internal.Constants
+
 import org.apache.spark.sql.{AnalysisException, SparkSession}
-import org.apache.spark.sql.catalyst.dsl.expressions.StringToAttributeConversionHelper
 import org.apache.spark.sql.functions.{col, lit, when}
 
-import scala.reflect.runtime.universe.typeOf
-import scala.util.control.Exception
+
 
 object Main {
   
