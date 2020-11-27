@@ -14,9 +14,7 @@ import scala.reflect.runtime.universe.typeOf
 import scala.util.control.Exception
 
 object Main {
-
-
-
+  
   def main(args: Array[String]): Unit = {
 
     val now = DateTimeFormatter.ofPattern("dd-MM-yyyy").format(LocalDateTime.now)
@@ -38,7 +36,6 @@ object Main {
       df = df.withColumn("time", lit(now))
     }
   }finally {
-  
     df.write.partitionBy("time", "leftOrRight").mode("overwrite").json("./output/")
   }
 
