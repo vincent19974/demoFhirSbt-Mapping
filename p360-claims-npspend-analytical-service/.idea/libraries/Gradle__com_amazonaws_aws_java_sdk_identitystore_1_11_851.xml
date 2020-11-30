@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.amazonaws:aws-java-sdk-identitystore:1.11.851">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-identitystore/1.11.851/8b5edf54679253ceb1f1bbf419d14f0e4ea1dd3e/aws-java-sdk-identitystore-1.11.851.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-identitystore/1.11.851/3ec9cce4e78978bf332afd1e23f265c9d9e3c4b9/aws-java-sdk-identitystore-1.11.851-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

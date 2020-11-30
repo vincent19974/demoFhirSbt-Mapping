@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.amazonaws:aws-java-sdk-mediatailor:1.11.851">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-mediatailor/1.11.851/11859b1675c57a4e1c98c9d96efa909046b60993/aws-java-sdk-mediatailor-1.11.851.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-mediatailor/1.11.851/2ae89e2ab596f27b80712b0b26f9b465ff6b2bbd/aws-java-sdk-mediatailor-1.11.851-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.amazonaws:aws-java-sdk-guardduty:1.11.851">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-guardduty/1.11.851/98a983d0ae3cd4fd2585e63b321227fcc56de8f5/aws-java-sdk-guardduty-1.11.851.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-guardduty/1.11.851/e488db20a940a72b96747b0d6460f26e17430538/aws-java-sdk-guardduty-1.11.851-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
