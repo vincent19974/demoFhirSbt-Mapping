@@ -57,7 +57,7 @@ object Main {
     //Partitioning
     totalDf.createOrReplaceTempView("table")
 
-    val res = spark.sql("SELECT *, table.id % 2000 as part FROM table")
+    //val res = spark.sql("SELECT *, table.id % 2000 as part FROM table")
 
     //res.write.partitionBy("part").csv("./output/")
 
@@ -92,5 +92,10 @@ object Main {
       }
     }
     df
+  }
+
+  def partition(df: DataFrame,numPartitions: Int) = {
+    val dff = df.withColumn("part", when(col("id").isNotNull, col("id").hashCode() % numPartitions).otherwise(lit(numPartitions)))
+    dff.write.partitionBy("part").mode("overwrite").json("./data/output")
   }
 }
