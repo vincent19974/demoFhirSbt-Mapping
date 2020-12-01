@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.amazonaws:aws-java-sdk-snowball:1.11.851">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-snowball/1.11.851/5b26f11546ef02e6057aa22244cfeb8573387883/aws-java-sdk-snowball-1.11.851.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-snowball/1.11.851/6756ea399cb677986cc18a493a7e3997e93676e9/aws-java-sdk-snowball-1.11.851-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

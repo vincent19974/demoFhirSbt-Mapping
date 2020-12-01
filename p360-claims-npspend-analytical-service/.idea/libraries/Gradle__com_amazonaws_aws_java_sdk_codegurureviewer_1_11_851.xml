@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.amazonaws:aws-java-sdk-codegurureviewer:1.11.851">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-codegurureviewer/1.11.851/43e43dfb7a820e932e7a38bdb928295c1b71c828/aws-java-sdk-codegurureviewer-1.11.851.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-codegurureviewer/1.11.851/17861f47f6e2361fbebad6ad57b749fe1d2179c3/aws-java-sdk-codegurureviewer-1.11.851-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

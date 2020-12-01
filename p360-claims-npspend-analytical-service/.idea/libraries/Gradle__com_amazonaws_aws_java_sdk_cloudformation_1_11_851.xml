@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.amazonaws:aws-java-sdk-cloudformation:1.11.851">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-cloudformation/1.11.851/db353f1b2e2ef9c37a4d0740e18cecd40ae8307e/aws-java-sdk-cloudformation-1.11.851.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-cloudformation/1.11.851/271029af1450af7dedcdc45140c4bac945499eb/aws-java-sdk-cloudformation-1.11.851-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.amazonaws:aws-java-sdk-ec2instanceconnect:1.11.851">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-ec2instanceconnect/1.11.851/570f7f92ba175ffc984ab0c31bc465831ba1c06a/aws-java-sdk-ec2instanceconnect-1.11.851.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-ec2instanceconnect/1.11.851/630ca8402572d27d628848406861bebae8630a71/aws-java-sdk-ec2instanceconnect-1.11.851-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
