@@ -18,6 +18,7 @@ object Main {
 
     val df = spark.read.option("multiline", true).json("./data/prod-data.json")
     val df1 = spark.read.option("multiline", true).json("./data/epim-not-working.json")
+
     val df2 = spark.read.option("multiline", true).json("./data/nestedMissing2.json")
     val df3 = spark.read.option("multiline", true).json("./data/nestedMissing3.json")
 
@@ -45,17 +46,21 @@ object Main {
     flatDf3.show()*/
 
 
+    val totalDf = flatDf.join(flatDf1,Seq("id"),"outer")
+    totalDf.printSchema()
+    totalDf.show()
+
     /*val completeDf = flatDf1.join(flatDf2,col("data_id"),"outer").join(flatDf3,col("data_id"),"outer")
 
     completeDf.show()*/
 
-    // Partitioning
-    /*df.createOrReplaceTempView("table")
+    //Partitioning
+    totalDf.createOrReplaceTempView("table")
 
-    val df1 = spark.sql("SELECT *, gfcid % 2000 as part FROM table")
+    val res = spark.sql("SELECT *, table.id % 2000 as part FROM table")
 
-    df1.write.partitionBy("part").csv("./output/")
-*/
+    //res.write.partitionBy("part").csv("./output/")
+
   }
 
 
