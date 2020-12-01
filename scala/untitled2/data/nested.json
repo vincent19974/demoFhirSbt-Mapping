@@ -1,0 +1,18 @@
+{"data":[
+  {"id": 1},
+  {"stuff":[
+  {"onetype":[
+    {"id":1,"name":"John Doe"},
+    {"id":2,"name":"Don Joeh"}
+  ]},
+  {"othertype":[
+    {"id":2,"company":"ACME"}
+  ]},
+  {"thirdType":[
+    {"id":3,"company":"ACME"}
+  ]}]
+},{"otherstuff":[
+  {"thing":
+  [[1,42],[2,2]]
+  }]
+}]}

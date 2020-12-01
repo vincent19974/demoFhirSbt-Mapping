@@ -1,0 +1,10 @@
+[debug] > Exec(package, None, None)
+[debug] Evaluating tasks: Compile / package
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\WINDOWS 10\Desktop\springFhirDemo\untitled2\target\scala-2.11\classes ...
+[info] done compiling
+[debug] Forcing garbage collection...
+[success] Total time: 2 s, completed Nov 27, 2020 5:42:10 PM
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)
