@@ -63,7 +63,7 @@ object NpspendAnalyticalProcess extends Logging {
     totalDf.printSchema()
     totalDf.show()
 
-    print("prvi " + flatDf.count() + "drugi: " + flatDf1.count() + "total: " + totalDf.count())
+    print(" First " + flatDf.count() + " Second: " + flatDf1.count() + " Third: " + totalDf.count())
     //startApplication(args)
 
     //getConfValueFromMap()

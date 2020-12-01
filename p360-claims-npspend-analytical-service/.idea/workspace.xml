@@ -23,49 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1ee203e-3208-43bd-8b81-16e6e3bffd21" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/epim-not-working.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/prod-data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache-main" beforeDir="false" afterPath="$PROJECT_DIR$/.cache-main" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_11_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_11_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_11_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_11_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_buffer_4_1_48_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_buffer_4_1_48_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_common_4_1_48_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_common_4_1_48_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_resolver_4_1_48_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_resolver_4_1_48_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_transport_4_1_48_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_transport_4_1_48_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/p360-claims-npspend-analytical-service.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/p360-claims-npspend-analytical-service.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/p360-claims-npspend-analytical-service.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/p360-claims-npspend-analytical-service.test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/non-prod/input_npspend.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/non-prod/input_npspend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/prod/input_npspend.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/prod/input_npspend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/non-prod/input_npspend.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/non-prod/input_npspend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/prod/input_npspend.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/prod/input_npspend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/p360/npspend/claims/analytics/AWSUtils.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/p360/npspend/claims/analytics/AWSUtils.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/p360/npspend/claims/analytics/DateApp.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/p360/npspend/claims/analytics/DateApp.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/p360/npspend/claims/analytics/JsonExtractor.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/p360/npspend/claims/analytics/JsonExtractor.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/p360/npspend/claims/analytics/KafkaProducer.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/p360/npspend/claims/analytics/KafkaProducer.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/p360/npspend/claims/analytics/NpspendAnalyticalProcess.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/p360/npspend/claims/analytics/NpspendAnalyticalProcess.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/p360/npspend/claims/analytics/Queries.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/p360/npspend/claims/analytics/Queries.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/p360/npspend/claims/analytics/SparkDriver.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/p360/npspend/claims/analytics/SparkDriver.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/p360/npspend/claims/analytics/Utils.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/p360/npspend/claims/analytics/Utils.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +89,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -583,8 +544,9 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/data" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
