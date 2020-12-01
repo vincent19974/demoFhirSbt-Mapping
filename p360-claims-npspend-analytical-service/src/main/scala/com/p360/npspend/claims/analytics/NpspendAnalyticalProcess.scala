@@ -41,7 +41,7 @@ object NpspendAnalyticalProcess extends Logging {
   def main(args: Array[String]): Unit = {
 
 
-    val spark = SparkSession.builder().appName("proba").master("local[*]").getOrCreate()
+    val spark = SparkSession.builder().appName("test").master("local[*]").getOrCreate()
 
     val df = spark.read.option("multiline", true).json("./data/prod-data.json")
     val df1 = spark.read.option("multiline", true).json("./data/epim-not-working.json")
