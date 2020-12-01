@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.amazonaws:aws-java-sdk-qldbsession:1.11.851">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-qldbsession/1.11.851/a6114116d4cf1bbddf22f80a6616244477095e62/aws-java-sdk-qldbsession-1.11.851.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-qldbsession/1.11.851/2494d3af6af26d8975530fc49bb05d9eb251638d/aws-java-sdk-qldbsession-1.11.851-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

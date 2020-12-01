@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.amazonaws:aws-java-sdk-honeycode:1.11.851">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-honeycode/1.11.851/211936f109b011479a0c9dc3ad28540cafe80cee/aws-java-sdk-honeycode-1.11.851.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-honeycode/1.11.851/c5c5c9ed3d4198c60465259c6a034a621516a2a1/aws-java-sdk-honeycode-1.11.851-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

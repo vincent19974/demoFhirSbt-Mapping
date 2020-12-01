@@ -1,0 +1,27 @@
+{
+  "npspendKafkaKeyCols": ["source_system_provider_tin", "segment", "funding_type", "service_type", "row_effective_date", "row_expiry_date"],
+  "npspendKafkaValueCols": ["source_system_provider_tin", "segment", "funding_type", "service_type", "allowed_amount", "charge_amount", "allowed_to_charge_ratio", "row_effective_date", "row_expiry_date"],
+  "npspendReadBucketPath" : "s3://p360-prod-claims/claims-full-dataset-blue/compact/",
+  "npspendWriteBucketPath" : "s3://p360-prod-npspend/compact",
+  "npspendOldCsvReadBucketPath" : "s3://p360-prod-npspend/npspend-history/",
+  "startDateForHistoryLoad" : "2018-10-01",
+  "oldDataEffectiveDate": "2017-01-01",
+  "oldDataExpiryDate" : "2018-09-30",
+  "loadType": "history",
+  "hive.db.name": "pdp_foundation",
+  "hive.table.name": "Provider_allowed_to_billed_ratio",
+  "number.of.months": "24",
+  "log.level": "ERROR",
+  "metadata.table.name": "p360-prod-npspend",
+
+  "kafkaConf": {
+    "schemaRegistryUrl": "https://schema-reg.optum-p360.net",
+    "bootStrapserver": "b-1.p360-prod-kafka-claim.wrr78z.c12.kafka.us-east-1.amazonaws.com:9094,b-2.p360-prod-kafka-claim.wrr78z.c12.kafka.us-east-1.amazonaws.com:9094,b-3.p360-prod-kafka-claim.wrr78z.c12.kafka.us-east-1.amazonaws.com:9094",
+    "securityProtocol": "ssl",
+    "sslProtocols": "TLSv1.2,TLSv1.1,TLSv1",
+    "identificationAlgorithm": "",
+    "npspendTopic": "claims.analytical.npspend"
+
+
+  }
+}

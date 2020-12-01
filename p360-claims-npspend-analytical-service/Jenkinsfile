@@ -1,0 +1,13 @@
+#!/usr/bin/env groovy
+
+@Library("com.optum.jenkins.pipeline.library@master")
+@Library("pdp-jenkins-vars@aws-spark-pipeline") import pdpPipelineStrategy
+
+def options = [
+        s3JarUpload : true,
+        s3NonProdLocation: 's3://p360-poc-generic/spark-jar/npspend',
+        s3ProdLocation: 's3://p360-prod-generic/spark-jar/npspend',
+
+]
+
+pdpPipelineStrategy(options)

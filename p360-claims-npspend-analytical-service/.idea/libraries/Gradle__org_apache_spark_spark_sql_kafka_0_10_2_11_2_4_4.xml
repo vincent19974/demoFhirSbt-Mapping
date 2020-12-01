@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.spark:spark-sql-kafka-0-10_2.11:2.4.4">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-sql-kafka-0-10_2.11/2.4.4/3a838dc1b1944c9ce507e1d0b061cf4c42e1d921/spark-sql-kafka-0-10_2.11-2.4.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-sql-kafka-0-10_2.11/2.4.4/7de35f1dab64d1191e5a5473c00ac3a9ff7cd170/spark-sql-kafka-0-10_2.11-2.4.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.amazonaws:aws-java-sdk-greengrass:1.11.851">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-greengrass/1.11.851/de61ef7c5da287aef9631607805bb5b3d904b860/aws-java-sdk-greengrass-1.11.851.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-greengrass/1.11.851/bdb7e3687aea67c9fc89a7543ca54464f601c8d9/aws-java-sdk-greengrass-1.11.851-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
