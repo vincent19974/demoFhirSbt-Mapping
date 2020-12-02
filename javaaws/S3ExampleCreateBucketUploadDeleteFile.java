@@ -4,7 +4,7 @@ import com.amazonaws.regions.Regions;
 import com.amazonaws.services.s3.AmazonS3;
 import com.amazonaws.services.s3.AmazonS3ClientBuilder;
 import com.amazonaws.services.s3.model.Bucket;
-import com.amazonaws.services.s3.model.PutObjectResult;
+
 
 
 public class S3Example {
@@ -32,7 +32,7 @@ public class S3Example {
 		
 	//	java.io.File fajl = new java.io.File ("/home/sjovanovic/Documents/Databar/proba1.hql");
 		
-	//	PutObjectResult objResult = s3Obj.putObject("sasabuc2", "proba1.hql", fajl);
+	//	s3Obj.putObject("sasabuc2", "proba1.hql", fajl);
 			
 	//	System.out.println("My first copy file to s3 bucket");
 		
