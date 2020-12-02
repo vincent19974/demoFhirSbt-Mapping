@@ -3,7 +3,7 @@ import java.time.format.DateTimeFormatter
 
 import org.apache.spark.sql.catalyst.ScalaReflection.universe.typeOf
 import org.apache.spark.sql.{AnalysisException, Column, DataFrame, Row, SaveMode, SparkSession, functions}
-import org.apache.spark.sql.functions.{col, explode, lit, when}
+import org.apache.spark.sql.functions.{abs, col, explode, lit, when}
 import org.apache.spark.sql.types.{ArrayType, StructType}
 
 import scala.collection.mutable.ArrayBuffer
@@ -50,9 +50,8 @@ object Main {
   }
 
   def partition(df: DataFrame,numPartitions: Int) = {
-    var dff = df.withColumn("part", functions.hash(col("EPIM_Identifier")) % numPartitions)
-    dff.groupBy("EPIM_Identifier").mean("part").show()
-    dff.write.partitionBy("part").mode("overwrite").json("./data/output")
+    var dff = df.withColumn("part", abs(functions.hash(col("EPIM_Identifier")) % numPartitions))
+    dff.write.partitionBy("part").mode("overwrite").parquet("./data/output")
   }
 
 
