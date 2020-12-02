@@ -2,10 +2,9 @@ import java.time.LocalDateTime
 import java.time.format.DateTimeFormatter
 
 import org.apache.spark.sql.catalyst.ScalaReflection.universe.typeOf
-import org.apache.spark.sql.{AnalysisException, Column, DataFrame, SparkSession}
+import org.apache.spark.sql.{AnalysisException, Column, DataFrame, Row, SaveMode, SparkSession, functions}
 import org.apache.spark.sql.functions.{col, explode, lit, when}
 import org.apache.spark.sql.types.{ArrayType, StructType}
-import org.apache.spark.sql.{DataFrame, Row, SaveMode, SparkSession}
 
 import scala.collection.mutable.ArrayBuffer
 
@@ -19,7 +18,7 @@ object Main {
     val spark = SparkSession.builder().appName("proba").master("local[*]").getOrCreate()
 
 
-    val df = spark.read.option("multiline", true).json("./data/epim-not-working.json")
+    val df = spark.read.option("multiline", true).json("./data/input/epim-not-working.json")
     val flatDf = flattenDataframe(df)
 
 //     val colList: Array[Column] = Array(
@@ -51,9 +50,9 @@ object Main {
   }
 
   def partition(df: DataFrame,numPartitions: Int) = {
-        var dff = df.withColumn("part", lit(col("EPIM_Identifier").hashCode() % numPartitions))
-        dff.groupBy("EPIM_Identifier").mean("part").show()
-        dff.write.partitionBy("part").mode("overwrite").json("./data/output")
+    var dff = df.withColumn("part", functions.hash(col("EPIM_Identifier")) % numPartitions)
+    dff.groupBy("EPIM_Identifier").mean("part").show()
+    dff.write.partitionBy("part").mode("overwrite").json("./data/output")
   }
 
 

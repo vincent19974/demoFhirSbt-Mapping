@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="demoPartitionFhir" target="1.15" />
+      <module name="demoPartitionFhir" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
